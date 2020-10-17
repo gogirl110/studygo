@@ -1,0 +1,16 @@
+0 开始
+1 基础学习 
+1.1 这个周末把runoob上东西 学习一遍, 一个回顾你之前学习的知识与笔记  和一些工具的使用 加深基础语法的学习 
+1.2 go 命令
+1.3 git 代码管理 
+1.4 相关书籍阅读 
+1.5 golang 官网等相关的golang的网站整理
+
+2 学习标准库, 也就是golang 的标准库 
+3 学习 golang 的对各种常用算法的实现 
+4 再学习golang 编写web程序与TCP http udp  
+5 再学习golang的数据库学习 如 mysql redis nosql  
+6 学习golang 常用的第三方库以及优秀源代码的库  (学习的每一个第三方库都需要写上其使用代码与对源码的分析)
+7 学习docker 与 k8s 
+9 学习golang 源码,也就golang 本身的实现 
+10 刷题 leetcode 力扣
