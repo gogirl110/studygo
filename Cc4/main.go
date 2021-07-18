@@ -9,3 +9,5 @@ func main() {
 	var s string  //字符串类型
 	fmt.Printf("%v %v %v %q\n", i, f, b, s)
 }
+
+//nil
