@@ -9,5 +9,3 @@ func main() {
 	var b, c int = 1, 2
 	fmt.Println(b, c)
 }
-
-//语言变量
