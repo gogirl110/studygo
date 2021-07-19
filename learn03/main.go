@@ -98,7 +98,7 @@ func main() {
 }
 */
 
-/*//接口
+//接口
 //采用duck type方式，无须在实现类型上添加显示声明
 import (
 	"fmt"
@@ -125,4 +125,3 @@ func main() {
 	var p Printer = u //只要包含接口所需的全部方法，即表示实现了该接口
 	p.Print()
 }
-*/
