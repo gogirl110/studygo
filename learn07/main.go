@@ -70,4 +70,20 @@ func main() {
 }
 */
 
+/*
 //展开
+var x = 0x100
+const y = 0x200
+
+func main() {
+	println(&x, x)
+	println(&y, y)
+}
+*/
+
+//不同变量在运行期间分配存储内存（非优化状态），常量通常会被编译器在预处理阶段直接展开，作为指令数据使用
+const y = 0x200
+
+func main() {
+	println(y)
+}
