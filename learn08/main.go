@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 import (
 	"fmt"
@@ -36,6 +34,7 @@ func main() {
 }
 */
 
+/*
 //使用浮点数时，须注意小数位的有效精度
 func main() {
 	var a float32 = 1.1234567899 //注意：默认浮点类型是float64
@@ -45,4 +44,22 @@ func main() {
 	println(a, b, c)
 	println(a == b, a == c)
 	fmt.Printf("%v %v, %v\n", a, b, c)
+}
+*/
+
+//别名
+byte    alias for uint8
+rune    alias for int32
+
+//别名无须转换，可直接赋值
+func test(x byte) {
+	println(x)
+}
+
+func main() {
+	var a byte = 0x11
+	var b uint8 = a
+	var c uint8 = a + b
+
+	test(c)
 }
