@@ -47,9 +47,11 @@ func main() {
 }
 */
 
+/*
 //别名
 byte    alias for uint8
 rune    alias for int32
+*/
 
 //别名无须转换，可直接赋值
 func test(x byte) {
