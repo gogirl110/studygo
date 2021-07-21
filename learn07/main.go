@@ -90,9 +90,11 @@ func main() {
 }
 */
 
+/*
 //提到常量展开，我们还须回头看看常量的两种状态对编译器的影响
 const x = 100    //无类型声明的常量
 const y byte = x //直接展开x，相当于const y byte=100
 
 const a int = 100 //显式指定常量类型，编译器会做强类型检查
 const b byte = a
+*/
