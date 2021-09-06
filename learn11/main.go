@@ -1,6 +1,6 @@
 package main
 
-/*二元运算符
+//二元运算符
 import "fmt"
 
 func main() {
@@ -14,4 +14,3 @@ func main() {
 	d := c + v //v自动转换为float32类型
 	fmt.Printf("%T, %v\n", d, d)
 }
-*/
